@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    font-family: "Source Code Pro", monospace;
+    font-style: normal;
+    color: white;
+}
+
+html {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+p {
+    font-size: 0.7rem;
+}
+
+
+.source-code-pro-font {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.jockey-one-regular {
+    font-family: "Jockey One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-bar {
+    display: flex;
+    position: fixed;
+    margin-top: 40px;
+    background-color: #1B1B1B;
+    width: 1110px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 5px 5px 5px 10px #1B1B1B;
+}
+
+.nav-bar a {
+    color: #9C9C9C;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.pagina-inicial {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.descricao p{
+    display: flex;
+    width: 400px;
+    margin-top: 10px;
+    font-weight: 250;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    width: 1110px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+.descricao button {
+    margin-top: 30px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: #62BA1B;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.informacoes {
+    display: flex;
+    width: 1110px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informacoes .imagem-perfil {
+    margin-top: 80px;
+
+}
+
+.informacoes .imagem-perfil img {
+    border-radius: 200px;
+}
+
+.main-tecnologias {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.container-tecnologias {
+    width: 1110px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.tecnologias {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.tec {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1B1B1B;
+    border-radius: 10px;
+}
+
+.sobre-mim {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.content-sobre {
+    margin-top: 80px;
+    width: 1110px;
+    background-color: white;
+}
+
+.content-sobre h1, .content-sobre p {
+    color: black;
+}
+
+
+
+
+
