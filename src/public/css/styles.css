@@ -139,6 +139,9 @@ p {
 }
 
 .content-sobre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin-top: 80px;
     width: 1110px;
     background-color: white;
@@ -147,6 +150,67 @@ p {
 .content-sobre h1, .content-sobre p {
     color: black;
 }
+
+.linha-vertical {
+    height: 200px;
+    border-left: 2px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main-black {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 1110px;
+    height: 100vh;
+}
+
+.header-projetos {
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1B1B1B;
+    border-radius: 10px;
+}
+
+.nome-e-tecnologia {
+    display: flex;
+    height: 50px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.projeto p {
+    display: flex;
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.projeto a {
+    font-size: 1rem;
+}
+
+.todos-projetos {
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 
 
