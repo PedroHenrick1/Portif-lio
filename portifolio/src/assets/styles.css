@@ -263,6 +263,60 @@ p {
 
 }
 
+.projetos-container {
+    position: relative; /* Essencial para posicionar os botões filhos */
+    width: 100%;
+    max-width: 500px; /* Mantenha o mesmo max-width do seu .todos-projetos */
+    margin: auto;
+}
+
+.nav-button {
+    position: absolute; /* Posiciona os botões sobre o container */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%);
+    z-index: 10; /* Garante que os botões fiquem na frente dos projetos */
+
+    background-color: rgba(27, 27, 27, 0.8); /* Fundo semi-transparente */
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: rgba(98, 186, 27, 0.8); /* Cor verde do seu portfólio no hover */
+}
+
+/* Posiciona o botão '<' na esquerda */
+#prev-button {
+    left: -20px; /* Metade para fora do container */
+}
+
+/* Posiciona o botão '>' na direita */
+#next-button {
+    right: -20px; /* Metade para fora do container */
+}
+
+/* Estilo para quando um botão estiver desabilitado */
+.nav-button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    background-color: #1B1B1B;
+}
+
+/* Oculta a barra de scroll, pois agora temos os botões */
+.todos-projetos::-webkit-scrollbar {
+    display: none;
+}
+.todos-projetos {
+   -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
 
 
 
